@@ -1,0 +1,88 @@
+﻿<!-- Thiết kế login phiên bản boostrap 5.1 -->
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Bootstrap CSS -->
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" >
+		<link href="css/bootstrap-grid.css" rel="stylesheet" type="text/css" >
+	 
+	 
+		<!--Main CSS -->
+		<link href="login2.css" rel="stylesheet" type="text/css" >
+
+
+		<title>Login</title>
+	</head>
+	
+	
+	<body>
+		<div class="container-md">
+			<div class="row">
+				
+				<div class="col-md-6 offset-md-3">
+					<div class="loginview bg-light">
+					
+					<form>
+						  <div class="row mb-3">
+							<label for="uName" class="col-md-3 offset-md-1 col-form-label">Tên đăng nhập</label>
+							<div class="col-md-7">
+							  <input type="text" class="form-control" id="uName">
+							</div>
+						  </div>
+						  <div class="row mb-3">
+							<label for="uPass" class="col-md-3 offset-md-1 col-form-label">Mật khẩu</label>
+							<div class="col-md-7">
+							  <input type="password" class="form-control" id="uPass">
+							</div>
+						  </div>
+						  
+						  <div class="row mb-3">
+							<div class="col-md-7 offset-md-4">
+							  <div class="form-check">
+								<input class="form-check-input" type="checkbox" id="gridCheck1">
+								<label class="form-check-label" for="gridCheck1">
+								Lưu thông tin đăng nhập
+								</label>
+							  </div>
+							</div>
+							
+							
+						  <div class="row mb-3">
+							<div class="col-md-7 offset-md-4">
+							  <a href="#">Đăng kí</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+							  <a href="#">Quên mật khẩu</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+							  <a href="#">Trợ giúp</a>
+							 </div>
+							</div>
+							<div class="row mb-3">
+							<div class="col-md-7 offset-md-4">	
+						  <button type="button" class="btn btn-primary">Đăng nhập</button>
+						   <button type="button" class="btn btn-primary">Thoát</button>
+						   </div>
+						   </div>
+						   <div class="row mb-3">
+							<div class="col-md-7 offset-md-4 text-end">
+							  <a href="#">English</a>
+							  
+						   
+						   
+						   
+						   
+						</form>
+											
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+    
+
+    
+  </body>
+</html>

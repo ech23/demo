@@ -1,0 +1,11 @@
+﻿/* Các xử lý mã định dạng riêng login2.html*/
+
+
+.loginview{
+	height: 400px;
+	
+	box-shadow: 5px 5px 30px #0dcaf0;
+}
+.loginview .col-md-7 a{
+	text-decoration:none
+}
